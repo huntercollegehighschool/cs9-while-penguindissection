@@ -18,3 +18,15 @@ Enter a number or enter 0 to stop: 0
 Number of evens: 3
 
 '''
+
+bonk = int(input("Enter a number or enter 0 to stop: "))
+aaaah = 0
+
+while bonk != 0:
+  if bonk % 2 == 0:
+    aaaah += 1
+  else:
+    aaaah == aaaah
+  bonk = int(input("Enter a number or enter 0 to stop: "))
+
+print("Number of evens:", aaaah)

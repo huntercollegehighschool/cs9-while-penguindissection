@@ -11,3 +11,11 @@ Hunter
 Hunter
 
 '''
+
+apricot = int(input("Times to print: "))
+bubble = 0
+
+while bubble < apricot:
+  print("Hunter")
+  bubble += 1
+
